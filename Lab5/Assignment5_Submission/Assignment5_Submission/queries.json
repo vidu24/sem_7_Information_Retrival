@@ -1,0 +1,43 @@
+[
+  {
+    "query": "documents about protecting computer networks",
+    "relevant_ids": [
+      "D07",
+      "D09",
+      "D10",
+      "D11",
+      "D12"
+    ]
+  },
+  {
+    "query": "how to speed up SQL searches",
+    "relevant_ids": [
+      "D13",
+      "D14",
+      "D18"
+    ]
+  },
+  {
+    "query": "neural models for text understanding",
+    "relevant_ids": [
+      "D01",
+      "D03",
+      "D06"
+    ]
+  },
+  {
+    "query": "internet packet routing and transport",
+    "relevant_ids": [
+      "D19",
+      "D22",
+      "D23"
+    ]
+  },
+  {
+    "query": "database reliability and replication",
+    "relevant_ids": [
+      "D15",
+      "D17"
+    ]
+  }
+]

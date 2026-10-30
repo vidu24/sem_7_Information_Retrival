@@ -1,0 +1,13 @@
+streamlit>=1.36
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+joblib>=1.3
+requests>=2.31
+beautifulsoup4>=4.12
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+transformers>=4.42
+torch>=2.2
+Pillow>=10.0
+plotly>=5.22

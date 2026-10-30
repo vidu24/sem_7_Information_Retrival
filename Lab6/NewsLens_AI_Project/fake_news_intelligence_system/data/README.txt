@@ -1,0 +1,1 @@
+SQLite database is created automatically at first launch. Import a labeled CSV dataset through the UI.

@@ -1,0 +1,90 @@
+========================================================================================
+COLLEGE LIBRARY MINI SEARCH ENGINE
+Documents: 12 | Test queries: 3
+========================================================================================
+
+Q1: machine learning applications in healthcare
+Judged relevant documents: D1, D10, D2, D4, D6, D8
+
+  TF-IDF — Top 5
+    1. D6 | score=9.3388 | RELEVANT | Machine learning applications in modern healthcare
+    2. D1 | score=4.4430 | RELEVANT | Machine learning methods for medical diagnosis and disease detection
+    3. D10 | score=3.7344 | RELEVANT | Predictive analytics in healthcare using deep learning
+    4. D11 | score=2.8022 | NOT RELEVANT | Computer vision applications in medical image analysis
+    5. D2 | score=2.0936 | RELEVANT | Healthcare data analysis using artificial intelligence
+
+  VSM cosine — Top 5
+    1. D6 | score=0.8349 | RELEVANT | Machine learning applications in modern healthcare
+    2. D10 | score=0.3192 | RELEVANT | Predictive analytics in healthcare using deep learning
+    3. D1 | score=0.3175 | RELEVANT | Machine learning methods for medical diagnosis and disease detection
+    4. D11 | score=0.2125 | NOT RELEVANT | Computer vision applications in medical image analysis
+    5. D2 | score=0.1723 | RELEVANT | Healthcare data analysis using artificial intelligence
+
+  BIM — Top 5
+    1. D6 | score=7.6948 | RELEVANT | Machine learning applications in modern healthcare
+    2. D10 | score=5.7177 | RELEVANT | Predictive analytics in healthcare using deep learning
+    3. D1 | score=5.1299 | RELEVANT | Machine learning methods for medical diagnosis and disease detection
+    4. D4 | score=3.1527 | RELEVANT | Deep learning techniques for disease prediction
+    5. D2 | score=2.5649 | RELEVANT | Healthcare data analysis using artificial intelligence
+
+Q2: computer networks and cybersecurity
+Judged relevant documents: D12, D3
+
+  TF-IDF — Top 5
+    1. D12 | score=8.9556 | RELEVANT | Cybersecurity and intrusion detection in computer networks
+    2. D3 | score=4.8958 | RELEVANT | History and development of computer networks
+    3. D11 | score=2.0936 | NOT RELEVANT | Computer vision applications in medical image analysis
+    4. D1 | score=0.0000 | NOT RELEVANT | Machine learning methods for medical diagnosis and disease detection
+    5. D10 | score=0.0000 | NOT RELEVANT | Predictive analytics in healthcare using deep learning
+
+  VSM cosine — Top 5
+    1. D12 | score=0.7524 | RELEVANT | Cybersecurity and intrusion detection in computer networks
+    2. D3 | score=0.4535 | RELEVANT | History and development of computer networks
+    3. D11 | score=0.1621 | NOT RELEVANT | Computer vision applications in medical image analysis
+    4. D1 | score=0.0000 | NOT RELEVANT | Machine learning methods for medical diagnosis and disease detection
+    5. D10 | score=0.0000 | NOT RELEVANT | Predictive analytics in healthcare using deep learning
+
+  BIM — Top 5
+    1. D12 | score=11.1537 | RELEVANT | Cybersecurity and intrusion detection in computer networks
+    2. D3 | score=8.1092 | RELEVANT | History and development of computer networks
+    3. D11 | score=3.4553 | NOT RELEVANT | Computer vision applications in medical image analysis
+    4. D1 | score=0.0000 | NOT RELEVANT | Machine learning methods for medical diagnosis and disease detection
+    5. D10 | score=0.0000 | NOT RELEVANT | Predictive analytics in healthcare using deep learning
+
+Q3: quantum computing physics
+Judged relevant documents: D9
+
+  TF-IDF — Top 5
+    1. D9 | score=14.9936 | RELEVANT | Fundamentals of quantum computing and quantum physics
+    2. D1 | score=0.0000 | NOT RELEVANT | Machine learning methods for medical diagnosis and disease detection
+    3. D10 | score=0.0000 | NOT RELEVANT | Predictive analytics in healthcare using deep learning
+    4. D11 | score=0.0000 | NOT RELEVANT | Computer vision applications in medical image analysis
+    5. D12 | score=0.0000 | NOT RELEVANT | Cybersecurity and intrusion detection in computer networks
+
+  VSM cosine — Top 5
+    1. D9 | score=0.9045 | RELEVANT | Fundamentals of quantum computing and quantum physics
+    2. D1 | score=0.0000 | NOT RELEVANT | Machine learning methods for medical diagnosis and disease detection
+    3. D10 | score=0.0000 | NOT RELEVANT | Predictive analytics in healthcare using deep learning
+    4. D11 | score=0.0000 | NOT RELEVANT | Computer vision applications in medical image analysis
+    5. D12 | score=0.0000 | NOT RELEVANT | Cybersecurity and intrusion detection in computer networks
+
+  BIM — Top 5
+    1. D9 | score=12.7023 | RELEVANT | Fundamentals of quantum computing and quantum physics
+    2. D1 | score=0.0000 | NOT RELEVANT | Machine learning methods for medical diagnosis and disease detection
+    3. D10 | score=0.0000 | NOT RELEVANT | Predictive analytics in healthcare using deep learning
+    4. D11 | score=0.0000 | NOT RELEVANT | Computer vision applications in medical image analysis
+    5. D12 | score=0.0000 | NOT RELEVANT | Cybersecurity and intrusion detection in computer networks
+
+========================================================================================
+AGGREGATE EVALUATION (mean over test queries)
+========================================================================================
+Model                 P@5   Recall@5       F1@5      MRR@5       AP@5     NDCG@5
+TF-IDF              0.467      0.889      0.544      1.000      0.878      0.951
+VSM cosine          0.467      0.889      0.544      1.000      0.878      0.951
+BIM                 0.533      0.944      0.605      1.000      0.944      1.000
+
+The Probabilistic Ranking Principle ranks documents by decreasing estimated
+probability of relevance to the query. BIM models binary
+term presence and can use relevance judgments as feedback.
+BIM scores are ranking scores, not calibrated probabilities.
+

@@ -1,0 +1,26 @@
+id,title,subject,text
+D01,Neural network fundamentals,AI,Neural networks use layers of neurons and gradient descent to learn patterns for classification and prediction.
+D02,Deep learning vision,AI,Convolutional neural networks learn visual features from images for object detection and image recognition.
+D03,Language transformers,AI,Transformer attention models process text and support translation question answering and natural language understanding.
+D04,Reinforcement learning,AI,Reinforcement learning agents optimize policies from rewards through exploration and sequential decision making.
+D05,Machine learning evaluation,AI,Supervised machine learning evaluates classification using precision recall F1 and cross validation.
+D06,Generative AI models,AI,Generative language models predict tokens and generate text using self attention and pretrained neural representations.
+D07,Firewalls and network defense,Cybersecurity,Firewalls filter network traffic to protect computer networks from malicious connections and unauthorized access.
+D08,Cryptographic encryption,Cybersecurity,Cryptography uses encryption algorithms and secure keys to protect messages and confidential information.
+D09,Intrusion detection,Cybersecurity,Intrusion detection systems analyze suspicious network packets and identify cyberattacks and anomalous traffic.
+D10,Authentication security,Cybersecurity,Multi factor authentication access control and password hashing defend accounts from unauthorized access.
+D11,Malware analysis,Cybersecurity,Malware analysis identifies ransomware malicious executables and threats to endpoint security.
+D12,Web application security,Cybersecurity,Web security mitigates SQL injection cross site scripting and application vulnerabilities.
+D13,Relational SQL queries,Databases,Relational databases store records in tables and SQL queries join filter and aggregate rows.
+D14,Database indexes,Databases,B tree indexes accelerate SQL database query execution and optimize lookup performance.
+D15,Transactions and ACID,Databases,Database transactions ensure atomicity consistency isolation and durability for reliable storage.
+D16,Database normalization,Databases,Relational schema normalization reduces redundancy using functional dependencies and normal forms.
+D17,Distributed databases,Databases,Distributed databases replicate and partition data across servers for fault tolerance and scalability.
+D18,Query optimization,Databases,Database query planners choose efficient joins scans and execution strategies for SQL workloads.
+D19,TCP IP routing,Networking,Computer networks use IP routing and TCP connections to deliver packets across routers.
+D20,DNS name resolution,Networking,DNS translates domain names into IP addresses through recursive resolvers and caching.
+D21,Wireless communication,Networking,WiFi wireless networking uses radio channels and access points to connect devices.
+D22,Network congestion,Networking,Network congestion control manages packet loss throughput and latency using TCP algorithms.
+D23,Software defined networking,Networking,Software defined networking separates control planes from forwarding devices using centralized controllers.
+D24,HTTP protocols,Networking,HTTP and HTTPS define web requests responses caching and transport over internet connections.
+D25,Gardening soil care,Other,Growing roses and tomatoes in a home garden requires sunlight compost watering soil nutrients and seasonal pruning.

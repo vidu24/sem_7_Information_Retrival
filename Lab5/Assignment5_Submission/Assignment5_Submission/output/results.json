@@ -1,0 +1,317 @@
+
+9{
+  "documents": 25,
+  "clusters": 4,
+  "embedding_dimensions": 384,
+  "silhouette_cosine": 0.14074674248695374,
+  "topics": {
+    "Topic 0": [
+      "using",
+      "networks",
+      "network",
+      "neural",
+      "filter",
+      "relational",
+      "databases",
+      "access"
+    ],
+    "Topic 1": [
+      "sql",
+      "database",
+      "database query",
+      "execution",
+      "query",
+      "security",
+      "traffic",
+      "uses"
+    ],
+    "Topic 2": [
+      "classification",
+      "using",
+      "networking",
+      "devices",
+      "learn",
+      "neural networks",
+      "text",
+      "attention"
+    ],
+    "Topic 3": [
+      "access",
+      "connections",
+      "control",
+      "unauthorized access",
+      "unauthorized",
+      "computer networks",
+      "computer",
+      "ip"
+    ]
+  },
+  "anomaly_threshold": 0.9135190844535828,
+  "anomalies": [
+    {
+      "id": "D10",
+      "title": "Authentication security",
+      "distance": 0.926236093044281
+    },
+    {
+      "id": "D25",
+      "title": "Gardening soil care",
+      "distance": 0.9807112812995911
+    }
+  ],
+  "cluster_members": {
+    "0": [
+      "D07",
+      "D08",
+      "D09",
+      "D11"
+    ],
+    "1": [
+      "D01",
+      "D02",
+      "D03",
+      "D04",
+      "D05",
+      "D06",
+      "D25"
+    ],
+    "2": [
+      "D10",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16",
+      "D17",
+      "D18"
+    ],
+    "3": [
+      "D19",
+      "D20",
+      "D21",
+      "D22",
+      "D23",
+      "D24"
+    ]
+  },
+  "evaluations": [
+    {
+      "query": "documents about protecting computer networks",
+      "precision_at_5": 0.6,
+      "recall_at_5": 0.6,
+      "f1_at_5": 0.6,
+      "results": [
+        {
+          "id": "D07",
+          "score": 0.6152,
+          "cluster": 0,
+          "title": "Firewalls and network defense",
+          "explanation": "Semantic embedding cosine similarity to query"
+        },
+        {
+          "id": "D19",
+          "score": 0.4431,
+          "cluster": 3,
+          "title": "TCP IP routing",
+          "explanation": "Semantic embedding cosine similarity to query"
+        },
+        {
+          "id": "D23",
+          "score": 0.3709,
+          "cluster": 3,
+          "title": "Software defined networking",
+          "explanation": "Semantic embedding cosine similarity to query"
+        },
+        {
+          "id": "D10",
+          "score": 0.361,
+          "cluster": 2,
+          "title": "Authentication security",
+          "explanation": "Semantic embedding cosine similarity to query"
+        },
+        {
+          "id": "D09",
+          "score": 0.3507,
+          "cluster": 0,
+          "title": "Intrusion detection",
+          "explanation": "Semantic embedding cosine similarity to query"
+        }
+      ]
+    },
+    {
+      "query": "how to speed up SQL searches",
+      "precision_at_5": 0.6,
+      "recall_at_5": 1.0,
+      "f1_at_5": 0.7499999999999999,
+      "results": [
+        {
+          "id": "D14",
+          "score": 0.6221,
+          "cluster": 2,
+          "title": "Database indexes",
+          "explanation": "Semantic embedding cosine similarity to query"
+        },
+        {
+          "id": "D18",
+          "score": 0.5785,
+          "cluster": 2,
+          "title": "Query optimization",
+          "explanation": "Semantic embedding cosine similarity to query"
+        },
+        {
+          "id": "D13",
+          "score": 0.3597,
+          "cluster": 2,
+          "title": "Relational SQL queries",
+          "explanation": "Semantic embedding cosine similarity to query"
+        },
+        {
+          "id": "D12",
+          "score": 0.2373,
+          "cluster": 2,
+          "title": "Web application security",
+          "explanation": "Semantic embedding cosine similarity to query"
+        },
+        {
+          "id": "D04",
+          "score": 0.2034,
+          "cluster": 1,
+          "title": "Reinforcement learning",
+          "explanation": "Semantic embedding cosine similarity to query"
+        }
+      ]
+    },
+    {
+      "query": "neural models for text understanding",
+      "precision_at_5": 0.6,
+      "recall_at_5": 1.0,
+      "f1_at_5": 0.7499999999999999,
+      "results": [
+        {
+          "id": "D03",
+          "score": 0.499,
+          "cluster": 1,
+          "title": "Language transformers",
+          "explanation": "Semantic embedding cosine similarity to query"
+        },
+        {
+          "id": "D06",
+          "score": 0.4882,
+          "cluster": 1,
+          "title": "Generative AI models",
+          "explanation": "Semantic embedding cosine similarity to query"
+        },
+        {
+          "id": "D01",
+          "score": 0.3734,
+          "cluster": 1,
+          "title": "Neural network fundamentals",
+          "explanation": "Semantic embedding cosine similarity to query"
+        },
+        {
+          "id": "D02",
+          "score": 0.232,
+          "cluster": 1,
+          "title": "Deep learning vision",
+          "explanation": "Semantic embedding cosine similarity to query"
+        },
+        {
+          "id": "D16",
+          "score": 0.2056,
+          "cluster": 2,
+          "title": "Database normalization",
+          "explanation": "Semantic embedding cosine similarity to query"
+        }
+      ]
+    },
+    {
+      "query": "internet packet routing and transport",
+      "precision_at_5": 0.6,
+      "recall_at_5": 1.0,
+      "f1_at_5": 0.7499999999999999,
+      "results": [
+        {
+          "id": "D19",
+          "score": 0.5782,
+          "cluster": 3,
+          "title": "TCP IP routing",
+          "explanation": "Semantic embedding cosine similarity to query"
+        },
+        {
+          "id": "D24",
+          "score": 0.4534,
+          "cluster": 3,
+          "title": "HTTP protocols",
+          "explanation": "Semantic embedding cosine similarity to query"
+        },
+        {
+          "id": "D22",
+          "score": 0.4251,
+          "cluster": 3,
+          "title": "Network congestion",
+          "explanation": "Semantic embedding cosine similarity to query"
+        },
+        {
+          "id": "D07",
+          "score": 0.3686,
+          "cluster": 0,
+          "title": "Firewalls and network defense",
+          "explanation": "Semantic embedding cosine similarity to query"
+        },
+        {
+          "id": "D23",
+          "score": 0.3462,
+          "cluster": 3,
+          "title": "Software defined networking",
+          "explanation": "Semantic embedding cosine similarity to query"
+        }
+      ]
+    },
+    {
+      "query": "database reliability and replication",
+      "precision_at_5": 0.4,
+      "recall_at_5": 1.0,
+      "f1_at_5": 0.5714285714285715,
+      "results": [
+        {
+          "id": "D17",
+          "score": 0.6863,
+          "cluster": 2,
+          "title": "Distributed databases",
+          "explanation": "Semantic embedding cosine similarity to query"
+        },
+        {
+          "id": "D15",
+          "score": 0.6373,
+          "cluster": 2,
+          "title": "Transactions and ACID",
+          "explanation": "Semantic embedding cosine similarity to query"
+        },
+        {
+          "id": "D13",
+          "score": 0.371,
+          "cluster": 2,
+          "title": "Relational SQL queries",
+          "explanation": "Semantic embedding cosine similarity to query"
+        },
+        {
+          "id": "D16",
+          "score": 0.2826,
+          "cluster": 2,
+          "title": "Database normalization",
+          "explanation": "Semantic embedding cosine similarity to query"
+        },
+        {
+          "id": "D18",
+          "score": 0.2819,
+          "cluster": 2,
+          "title": "Query optimization",
+          "explanation": "Semantic embedding cosine similarity to query"
+        }
+      ]
+    }
+  ],
+  "macro_precision_at_5": 0.5599999999999999,
+  "macro_recall_at_5": 0.9199999999999999,
+  "macro_f1_at_5": 0.6842857142857143
+}
